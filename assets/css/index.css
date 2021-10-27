@@ -1,0 +1,62 @@
+
+.hero{
+    margin-top: 65px;
+    background: url("/assets/img/user_flow.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 500px;
+    height: 80vh;
+}
+
+main .hero p:nth-child(1){
+    width: 525px;
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+main .hero p:nth-child(1) span{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+main .hero p:nth-child(2){
+    width: 600px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.approach h5{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+.approach h3{
+    font-size: 1.5rem;
+}
+
+.card img{
+    width: 90px;
+    margin-bottom: 30px;
+}
+
+.card{
+    width: 30%;
+}
+
+.card p{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.card h6{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.approach div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

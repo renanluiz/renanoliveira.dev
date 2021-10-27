@@ -1,0 +1,10 @@
+.get-in-touch-active{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+    /* padding: 20px; */
+    border: 1px black solid;
+    padding: 9px;
+    margin-bottom: 0px;
+}
