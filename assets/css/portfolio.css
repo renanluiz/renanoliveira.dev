@@ -1,0 +1,49 @@
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 450px;
+}
+.project-card{
+    padding: 40px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-card:nth-child(odd){
+    /* background: url("../img/logo-servicenow-2021.jpeg"); */
+    background-color: rgb(15, 15, 15);
+    color: white;    
+}
+
+.project-card:nth-child(odd) .more-details{
+    border-color: white;
+    color: white;    
+}
+
+.project-card .project-card-name{
+    font-size: 1.2rem;
+}
+
+.project-card .project-card-description{
+    font-size: 0.9rem;
+    word-break: normal;
+}
+
+.project-card .more-details{
+
+    /* margin-top: 20px; */
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    border: 1px black solid;
+    background-color: unset;
+    border-radius: 20px;
+    width: 35%;
+    padding: 8px 10px;
+}

@@ -66,17 +66,36 @@ main .profile-info h3{
     align-items: center;
 }
 
-main .right-side-bar{
+main .click-to-profile{
     width: 100%;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(252, 252, 252);
+    border: 1px rgb(230, 230, 230) solid;
     height: 100%;
     grid-column: 2;
     grid-row: 1;
     /* background: url("../img/user_flow.png"); */
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .click-to-profile p{
+    margin-bottom: 20px;
+}
+
+main .click-to-profile a{
+    color: #0b65c2;
+    background-color: rgb(252, 252, 252);
+    font-size: 0.9rem;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: 1px #0b65c2 solid;
 
 }
+
 
 main .experiences{
     width: 95%;
@@ -133,4 +152,21 @@ main .experiences h3{
     margin-top: 50px;
     border-top: 1px rgb(240, 240, 240) solid;
     padding-top: 30px;
+}
+
+main .skills{
+    margin-top: 25px;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+    border: 1px rgb(230, 230, 230) solid;
+    height: 400px;
+    grid-column: 2;
+    grid-row: 2;
+    /* background: url("../img/user_flow.png"); */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }

@@ -8,3 +8,39 @@
     padding: 9px;
     margin-bottom: 0px;
 }
+
+.agende{
+    border: 1px black solid;
+    width: 260px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    transition: 0.25s ease;
+    margin-top: 35px;
+}
+
+.agende:hover{
+    background-color: black;
+    color: white
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background: url("../img/busy_dev.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top 100px right;
+    background-size: 350px;
+    height: 425px;
+    justify-content: center;
+    /* background-color: tomato; */
+}
+
+main p{
+    width: 700px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
