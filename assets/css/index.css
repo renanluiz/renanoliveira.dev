@@ -3,15 +3,24 @@
     background: url("/assets/img/user_flow.png");
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: 500px;
+    background-size: 50%;
     height: 80vh;
+    transition: 1s ease;
 }
 
 main .hero p:nth-child(1){
-    width: 525px;
+    width: 50%;
     font-size: 2.1rem;
     font-weight: 400;
     margin-bottom: 50px;
+    transition: 1s ease;
+}
+
+main .hero p:nth-child(2){
+    width: 50%;
+    font-weight: 400;
+    margin-bottom: 50px;
+    transition: 1s ease;
 }
 
 main .hero a{
@@ -21,12 +30,6 @@ main .hero a{
 main .hero a:hover{
     border-bottom: 1px black solid;
     padding: 3px;
-}
-
-main .hero p:nth-child(2){
-    width: 600px;
-    font-weight: 400;
-    margin-bottom: 50px;
 }
 
 .approach h5{
@@ -62,4 +65,73 @@ main .hero p:nth-child(2){
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+@media (max-width: 1250px){
+
+    .hero{
+        background: unset;
+        height: 50vh;
+        display: flex;
+        margin-top: unset;
+        align-items: center;
+    }
+    main .hero p:nth-child(1){
+        width: 100%;
+    }
+    main .hero p:nth-child(2){
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1050px){
+
+}
+
+@media (max-width: 800px){
+
+}
+
+@media (max-width: 640px){
+
+    .approach{
+        margin-top: 75px;
+    }
+
+    .approach div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 800px;
+        text-align: center;
+    }
+
+    .approach .card{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 485px){
+
+    .hero{
+        height: 60vh;
+    }
+    
+    main .hero p:nth-child(1){
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    main .hero p:nth-child(2){
+        width: 100%;
+        font-size: .95rem;
+
+    }
+
+
 }

@@ -32,15 +32,48 @@ main{
     background: url("../img/busy_dev.png");
     width: 100%;
     background-repeat: no-repeat;
-    background-position: top 100px right;
-    background-size: 350px;
+    background-position: top right;
+    background-size: 50%;
     height: 425px;
     justify-content: center;
     /* background-color: tomato; */
 }
 
 main p{
-    width: 700px;
-    font-size: 1.1rem;
+    width: 50%;
+    /* font-size: 1.1rem; */
     line-height: 1.6;
+}
+
+@media (max-width: 1250px){
+
+    main{
+        background-position: center right;
+    }
+
+}
+
+@media (max-width: 1050px){
+    main p {
+        width: 100%;
+        text-align: center;
+    }
+
+    main{
+        align-items: center;
+        width: 100%;
+        background: unset;
+    }
+}
+
+@media (max-width: 800px){
+
+}
+
+@media (max-width: 640px){
+
+}
+
+@media (max-width: 485px){
+
 }

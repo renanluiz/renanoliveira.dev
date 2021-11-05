@@ -170,3 +170,68 @@ main .skills{
     flex-direction: column;
     justify-content: center;
 }
+
+@media (max-width: 1250px){
+
+
+}
+
+@media (max-width: 1050px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    main .profile-info{
+        height: 400px;
+    }
+
+
+    main .click-to-profile{
+        display: none;
+    }
+    main .skills{
+        display: none;
+    }
+
+}
+
+@media (max-width: 800px){
+
+}
+
+@media (max-width: 640px){
+
+    .profile-info h3{
+        text-align: center;
+    }
+
+
+    .content div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .content div p{
+        font-size: .75rem;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .profile-info{
+        height: 480px;
+        
+    }
+}
+
+@media (max-width: 485px){
+
+}
