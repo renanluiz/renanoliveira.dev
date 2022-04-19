@@ -55,6 +55,7 @@ img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border: 10px var(--primary) solid;
 }
 
 svg {
@@ -118,9 +119,9 @@ svg {
 
 .link-box {
     position: relative;
-
+    
     width: 100%;
-    max-width: 394px;
+    max-width: 373px;
     margin-bottom: -55px;
 }
 
@@ -133,7 +134,7 @@ a {
     position: relative;
 
     width: 100%;
-    max-width: 303px;
+    max-width: 290px;
     padding: 13px 20px 13px 58px;
     margin-bottom: 20px;
     border: 2px solid var(--primary);
